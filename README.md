@@ -51,7 +51,12 @@ npm run start
 ```
 
 # Screenshots
-
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/home-light.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/home-dark.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/login-page.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/noteprompt-dark.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/noteprompt-light.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/writenote-light.png)
 # Future enhancements
 
 - AI note summarization
