@@ -49,7 +49,7 @@ npm install
 ### Setup your .env file
 
 - PORT=4000
-- MONGO_URI=mongodb://localhost:27017/noteish
+- MONGO_URI= Your Database URL
 - MAIN_URL=http://localhost:4000
 
 ### Run app
