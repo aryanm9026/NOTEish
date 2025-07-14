@@ -1,0 +1,46 @@
+#new-note {
+  font-size: 20px;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 45px;
+  width: 75%;
+  :hover {
+    border-color: #ccc;
+  }
+  :focus {
+    border-color: #9147ff;
+    background: #fff;
+    height: 150px;
+  }
+
+  transition: height 0.3s ease;
+}
+
+#take-entry {
+  display: block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #365cc3;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  :hover {
+    background-color: #000000;
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+  }
+}
