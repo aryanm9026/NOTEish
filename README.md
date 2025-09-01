@@ -1,24 +1,32 @@
-# 📝 NOTEish
+#  NOTEish
 
 A clean and responsive **personal notes web app** built with Node.js, Express, MongoDB, and EJS.  
 Create, edit, delete, and share your notes — now with support for **dark mode**, **Google Keep-style popups**, and **WhatsApp sharing**.
 
 ---
 
-## 🔥 Features
+# Screenshots
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/home-light.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/home-dark.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/login-page.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/noteprompt-dark.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/noteprompt-light.png)
+![alt text](https://github.com/aryanm9026/NOTEish/blob/master/Screenshots/writenote-light.png)
 
-- 📓 Create, edit, and delete notes  
-- ⚡ Pop-up modal for full-screen note editing (like Google Keep)  
-- 🌙 Dark mode toggle (persists user preference)  
-- 📤 Share notes on WhatsApp in readable format  
-- 📦 MongoDB integration with timestamps and sorting  
-- ✅ User authentication with login/signup  
-- 🧾 Terms & Conditions checkbox on signup  
-- 📱 Mobile responsive using Bootstrap  
+##  Features
+
+-  Create, edit, and delete notes  
+-  Pop-up modal for full-screen note editing (like Google Keep)  
+-  Dark mode toggle (persists user preference)  
+-  Share notes on WhatsApp in readable format  
+-  MongoDB integration with timestamps and sorting  
+-  User authentication with login/signup  
+-  Terms & Conditions checkbox on signup  
+-  Mobile responsive using Bootstrap  
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap, EJS  
 - **Backend**: Node.js, Express.js  
@@ -29,9 +37,9 @@ Create, edit, delete, and share your notes — now with support for **dark mode*
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 🔧 Installation
+###  Installation
 
 ```bash
 git clone https://github.com/yourusername/NOTEish.git
@@ -40,17 +48,15 @@ npm install
 ```
 ### Setup your .env file
 
-PORT=4000
-MONGO_URI=mongodb://localhost:27017/noteish
-MAIN_URL=http://localhost:4000
+- PORT=4000
+- MONGO_URI= Your Database URL
+- MAIN_URL=http://localhost:4000
 
 ### Run app
 
 ```bash
 npm run start
 ```
-
-# Screenshots
 
 # Future enhancements
 
