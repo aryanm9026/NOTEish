@@ -38,3 +38,28 @@ git clone https://github.com/yourusername/NOTEish.git
 cd NOTEish
 npm install
 ```
+### Setup your .env file
+
+PORT=4000
+MONGO_URI=mongodb://localhost:27017/noteish
+MAIN_URL=http://localhost:4000
+
+### Run app
+
+```bash
+npm run start
+```
+
+# Screenshots
+
+# Future enhancements
+
+- AI note summarization
+
+- OAuth-based login (Google/GitHub)
+
+- Tags & categories
+
+- Export notes as PDF or Markdown
+
+### Pull requests are welcome!
